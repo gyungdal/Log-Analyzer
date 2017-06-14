@@ -1,0 +1,14 @@
+D:\Develop\Project\Security\LogAnalysis\LogAnalysis\bin\Debug\LogAnalysis.exe.config
+D:\Develop\Project\Security\LogAnalysis\LogAnalysis\bin\Debug\LogAnalysis.exe
+D:\Develop\Project\Security\LogAnalysis\LogAnalysis\bin\Debug\LogAnalysis.pdb
+D:\Develop\Project\Security\LogAnalysis\LogAnalysis\obj\Debug\LogAnalysis.csprojResolveAssemblyReference.cache
+D:\Develop\Project\Security\LogAnalysis\LogAnalysis\obj\Debug\MainWindow.g.cs
+D:\Develop\Project\Security\LogAnalysis\LogAnalysis\obj\Debug\App.g.cs
+D:\Develop\Project\Security\LogAnalysis\LogAnalysis\obj\Debug\LogAnalysis_MarkupCompile.cache
+D:\Develop\Project\Security\LogAnalysis\LogAnalysis\obj\Debug\LogAnalysis_MarkupCompile.lref
+D:\Develop\Project\Security\LogAnalysis\LogAnalysis\obj\Debug\MainWindow.baml
+D:\Develop\Project\Security\LogAnalysis\LogAnalysis\obj\Debug\LogAnalysis.g.resources
+D:\Develop\Project\Security\LogAnalysis\LogAnalysis\obj\Debug\LogAnalysis.Properties.Resources.resources
+D:\Develop\Project\Security\LogAnalysis\LogAnalysis\obj\Debug\LogAnalysis.csproj.GenerateResource.Cache
+D:\Develop\Project\Security\LogAnalysis\LogAnalysis\obj\Debug\LogAnalysis.exe
+D:\Develop\Project\Security\LogAnalysis\LogAnalysis\obj\Debug\LogAnalysis.pdb
