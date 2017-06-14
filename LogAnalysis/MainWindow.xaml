@@ -31,7 +31,20 @@
                             <RowDefinition Height="2*"/>
                             <RowDefinition Height="*"/>
                         </Grid.RowDefinitions>
-                        <Button Grid.Row="0"  Margin="3,3,3,3" Background="#ff04a9ee" />
+                        <Grid Grid.Row="0"  Margin="3,3,3,3" Background="#ff04a9ee">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="3*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <TextBlock Grid.Row="1" Text="HEY"
+                                       Foreground="White" TextAlignment="Center" />
+                            <TextBlock Grid.Row="2" Text="HEY"
+                                       Foreground="White" TextAlignment="Center" />
+                            <TextBlock Grid.Row="3" Text="HEY"
+                                       Foreground="White" TextAlignment="Center" />
+                        </Grid>
                         <Grid Grid.Row="1">
                             <Grid>
                                 <Grid.ColumnDefinitions>
