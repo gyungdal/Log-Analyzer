@@ -13,3 +13,9 @@ D:\Develop\Project\Security\LogAnalysis\LogAnalysis\obj\Debug\LogAnalysis.csproj
 D:\Develop\Project\Security\LogAnalysis\LogAnalysis\obj\Debug\LogAnalysis.exe
 D:\Develop\Project\Security\LogAnalysis\LogAnalysis\obj\Debug\LogAnalysis.pdb
 D:\Develop\Project\Security\LogAnalysis\LogAnalysis\obj\Debug\LogAnalysis_Content.g.cs
+D:\Develop\Project\Security\LogAnalysis\LogAnalysis\bin\Debug\LiveCharts.dll
+D:\Develop\Project\Security\LogAnalysis\LogAnalysis\bin\Debug\LiveCharts.pdb
+D:\Develop\Project\Security\LogAnalysis\LogAnalysis\bin\Debug\LiveCharts.xml
+D:\Develop\Project\Security\LogAnalysis\LogAnalysis\bin\Debug\LiveCharts.Wpf.dll
+D:\Develop\Project\Security\LogAnalysis\LogAnalysis\bin\Debug\LiveCharts.Wpf.pdb
+D:\Develop\Project\Security\LogAnalysis\LogAnalysis\bin\Debug\LiveCharts.Wpf.xml
