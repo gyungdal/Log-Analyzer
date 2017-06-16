@@ -12,3 +12,4 @@ D:\Develop\Project\Security\LogAnalysis\LogAnalysis\obj\Debug\LogAnalysis.Proper
 D:\Develop\Project\Security\LogAnalysis\LogAnalysis\obj\Debug\LogAnalysis.csproj.GenerateResource.Cache
 D:\Develop\Project\Security\LogAnalysis\LogAnalysis\obj\Debug\LogAnalysis.exe
 D:\Develop\Project\Security\LogAnalysis\LogAnalysis\obj\Debug\LogAnalysis.pdb
+D:\Develop\Project\Security\LogAnalysis\LogAnalysis\obj\Debug\LogAnalysis_Content.g.cs

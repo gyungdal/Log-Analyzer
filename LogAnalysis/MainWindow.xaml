@@ -9,15 +9,7 @@
         Background="#ff1d1d1d"
         Title="MainWindow" Height="380" Width="640" ResizeMode="CanResizeWithGrip">
     <Window.Resources>
-        <Storyboard x:Key="WaitStoryboard">
-            <DoubleAnimation
-        Storyboard.TargetName="Wait"
-        Storyboard.TargetProperty="(TextBlock.RenderTransform).(RotateTransform.Angle)"
-        From="0"
-        To="360"
-        Duration="0:0:2"
-        RepeatBehavior="Forever" />
-        </Storyboard>
+        <Storyboard x:Key="WaitStoryboard"/>
     </Window.Resources>
     <Grid>
         <Grid.RowDefinitions>
@@ -32,63 +24,26 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <Grid Grid.Column="1">
-                <Grid>
+                <Grid Grid.Column="0">
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="3*"/>
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
-
-                    <Grid Grid.Column="0">
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="2*"/>
-                            <RowDefinition Height="*"/>
-                        </Grid.RowDefinitions>
-                        <ProgressBar Grid.Row="0" Margin="3,3,3,3"
+                    <ProgressBar Grid.Row="0" Margin="3,3,3,3"
                                 Value="{Binding ProcessValue}" Foreground="#ff04a9ee" />
-                        <Grid Grid.Row="0"  Margin="3,3,3,3" Background="Transparent">
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="3*"/>
-                                <RowDefinition Height="*"/>
-                                <RowDefinition Height="*"/>
-                                <RowDefinition Height="*"/>
-                            </Grid.RowDefinitions>
-                            <TextBlock Grid.Row="1" Text="HEY"
-                                       Foreground="White" TextAlignment="Center" />
-                            <TextBlock Grid.Row="2" Text="HEY"
-                                       Foreground="White" TextAlignment="Center" />
-                            <TextBlock Grid.Row="3" Text="HEY"
-                                       Foreground="White" TextAlignment="Center" />
-                        </Grid>
-                        <Grid Grid.Row="1">
-                            <Grid>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="*"/>
-                                </Grid.ColumnDefinitions>
-                                <Button Grid.Column="0"  Margin="3,3,3,3" Background="#ff9ea5a7" Click="Button_Click"/>
-                                <Button Grid.Column="1"  Margin="3,3,3,3" Background="#ff888a8c" />
-                                <Button Grid.Column="2"  Margin="3,3,3,3" Background="#ff6a7075" />
-                            </Grid>
-                        </Grid>
-                    </Grid>
                     <Grid Grid.Column="1">
-                        <!-- TODO -->
                         <Grid>
                             <Grid.RowDefinitions>
-                                <RowDefinition  Height="*"/>
-                                <RowDefinition  Height="11*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
                             </Grid.RowDefinitions>
-                            <TextBox x:Name="SearchText" Background="#22323232" Foreground="White" BorderBrush="Transparent"
-                                     GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" TextChanged="SearchText_TextChanged"/>
-                            <ListView Grid.Row="1" Background="#11323232" BorderBrush="#22ffffff"/>
-                            <TextBlock Name="Wait" FontFamily="Fonts/#FontAwesome" Grid.Row="1" 
-                                       HorizontalAlignment="Center" VerticalAlignment="Center"
-                                       FontSize="50" Text="&#xf110;" RenderTransformOrigin="0.5, 0.5">
-                                <TextBlock.RenderTransform>
-                                    <RotateTransform Angle="0" />
-                                </TextBlock.RenderTransform>
-                            </TextBlock>
+                            <Button Grid.Row="0"  Margin="3,3,3,3" Background="#ff9ea5a7" 
+                                     Content="Time" FontWeight="Bold" Foreground="White"/>
+                            <Button Grid.Row="1"  Margin="3,3,3,3" Background="#ff888a8c" 
+                                     Content="Event Type" FontWeight="Bold" Foreground="White"/>
+                            <Button Grid.Row="2"  Margin="3,3,3,3" Background="#ff6a7075" 
+                                     Content="Sender" FontWeight="Bold" Foreground="White"/>
                         </Grid>
                     </Grid>
                 </Grid>

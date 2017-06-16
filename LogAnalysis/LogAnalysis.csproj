@@ -98,8 +98,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resource\Main\file.svg" />
-    <Content Include="Resource\Main\Filter.svg" />
-    <Content Include="Resource\Main\Magnifying_Glass.svg" />
+    <Content Include="Resource\Main\Filter.svg">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Resource\Main\Magnifying_Glass.svg">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Resource\Main\Open_Folder.svg" />
   </ItemGroup>
   <ItemGroup>
