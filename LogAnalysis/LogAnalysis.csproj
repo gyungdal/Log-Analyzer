@@ -96,5 +96,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resource\Main\file.svg" />
+    <Content Include="Resource\Main\Filter.svg" />
+    <Content Include="Resource\Main\Magnifying_Glass.svg" />
+    <Content Include="Resource\Main\Open_Folder.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Model\" />
+    <Folder Include="View\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
