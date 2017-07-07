@@ -4,3 +4,9 @@ D:\Develop\Project\Security\Test ConsoleApp\Test ConsoleApp\bin\Debug\Test Conso
 D:\Develop\Project\Security\Test ConsoleApp\Test ConsoleApp\obj\Debug\Test ConsoleApp.csprojResolveAssemblyReference.cache
 D:\Develop\Project\Security\Test ConsoleApp\Test ConsoleApp\obj\Debug\Test ConsoleApp.exe
 D:\Develop\Project\Security\Test ConsoleApp\Test ConsoleApp\obj\Debug\Test ConsoleApp.pdb
+D:\Develop\Project\Security\LogAnalysis\Test ConsoleApp\Test ConsoleApp\bin\Debug\Test ConsoleApp.exe.config
+D:\Develop\Project\Security\LogAnalysis\Test ConsoleApp\Test ConsoleApp\bin\Debug\Test ConsoleApp.exe
+D:\Develop\Project\Security\LogAnalysis\Test ConsoleApp\Test ConsoleApp\bin\Debug\Test ConsoleApp.pdb
+D:\Develop\Project\Security\LogAnalysis\Test ConsoleApp\Test ConsoleApp\obj\Debug\Test ConsoleApp.csprojResolveAssemblyReference.cache
+D:\Develop\Project\Security\LogAnalysis\Test ConsoleApp\Test ConsoleApp\obj\Debug\Test ConsoleApp.exe
+D:\Develop\Project\Security\LogAnalysis\Test ConsoleApp\Test ConsoleApp\obj\Debug\Test ConsoleApp.pdb

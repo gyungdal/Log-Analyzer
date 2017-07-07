@@ -27,7 +27,26 @@ namespace LogAnalysis
 
         public static WindowEventLogger NewInstance(string xmlPath)
         {
-            instance = new WindowEventLogger(xmlPath);
+
+            var t = from l in LogRecordCollection(@"E:\Application.evtx")
+                    where l.TimeCreated > new DateTime(2011, 03, 01)
+                    orderby l.RecordId descending
+                    select l;
+            foreach (var tt in t)
+            {
+                Console.WriteLine("==================================");
+                Console.WriteLine("ID : " + tt.Id ?? "");
+                Console.WriteLine("Activity ID : " + tt.ActivityId ?? "");
+                Console.WriteLine("Container Log : " + tt.ContainerLog ?? "");
+                Console.WriteLine("Provider Name : " + tt.ProviderName ?? "");
+                Console.WriteLine("Machine Name : " + tt.MachineName ?? "");
+                Console.WriteLine("Log Name: " + tt.LogName);
+                Console.WriteLine("==================================\n\n");
+                //               Console.WriteLine("XML : " + tt.ToXml());
+            }
+            while (true) ;
+        
+        instance = new WindowEventLogger(xmlPath);
             new Thread(new ThreadStart(() =>
             {
                 GC.Collect();
@@ -36,6 +55,19 @@ namespace LogAnalysis
             return instance;
         }
 
+
+            static IEnumerable<EventLogRecord> LogRecordCollection(string filename, string xpathquery = "*")
+            {
+                var eventLogQuery = new EventLogQuery(filename, PathType.FilePath, xpathquery);
+
+                using (var eventLogReader = new EventLogReader(eventLogQuery))
+                {
+                    EventLogRecord eventLogRecord;
+
+                    while ((eventLogRecord = (EventLogRecord)eventLogReader.ReadEvent()) != null)
+                        yield return eventLogRecord;
+                }
+            }
         public WindowEventLogger(string xmlPath)
         {
             Records = new List<EventRecord>();
